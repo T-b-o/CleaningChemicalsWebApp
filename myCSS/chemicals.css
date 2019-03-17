@@ -300,11 +300,11 @@ h3.logo{
     .wrapper{
         grid-template-areas: 
             "featuredMain featuredMain featuredMain"
-            "feauterdSub feauterdSub feauterdSub"
-            "contentMain contentMain contentMain"            
+            "featuredSub featuredSub featuredSub"
+            "contentMain contentMain contentMain"
             "contentSub contentSub contentSub"
     }
-    
+
     .logo{
         grid-column: 1/3;
     }
