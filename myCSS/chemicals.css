@@ -82,6 +82,10 @@ body{
     background-size: cover;
 }
 
+#myLinks{
+    display: block;
+}
+
 .nav-wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -273,6 +277,10 @@ h3.logo{
             "featuredMain featuredMain featuredMain"
             "featuredSub featuredSub featuredSub"
             "contentMain contentMain contentSub"
+    }
+
+    #myLinks{
+        display: block;
     }
 
     .sub-featured{
