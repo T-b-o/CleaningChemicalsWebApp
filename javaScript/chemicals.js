@@ -17,10 +17,10 @@
 // var btnClick = document.getElementById("burger-icon");
 function menuIcon(){
     var mainNav = document.getElementById("myLinks");
-    if(mainNav.style.display === "none"){
-        mainNav.style.display === "block";
+    if(mainNav.style.display === "block"){
+        mainNav.style.display = "none";
     }else{
-        mainNav.style.display === "none";
+        mainNav.style.display = "block";
     }
 }
 
