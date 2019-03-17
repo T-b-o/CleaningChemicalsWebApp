@@ -354,12 +354,12 @@ h3.logo{
         font-size: 30px;
     }
 
-    .mobile-show{
-        display: block;
+    #myLinks{
+        display: none;
     }
 
     .mobile-hide{
-        display: none;
+        display: block;
     }
 }
 

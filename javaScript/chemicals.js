@@ -15,13 +15,31 @@
 //});
 
 var btnClick = document.getElementById("burger-icon");
-var mainNav = document.querySelector('ul');
-console.log("selector");
-btnClick.addEventListener("click", function(event){
-    if(mainNav.hasAttribute('class')){
-        mainNav.getAttribute('mobile-hide')
+btnClick.addEventListener("click", function menuIcon(){
+    var mainNav = document.getElementById("myLinks");
+    if(mainNav.style.display === "none"){
+        mainNav.style.display === "block";
     }else{
-        console.log("no class");
+        mainNav.style.display === "none";
     }
 });
+
+
+
+
+
+
+
+
+// console.log("selector");
+// btnClick.addEventListener("click", function(){
+//     if(mainNav.getElementsByClassName("menu-hide")){
+//         mainNav.getAttribute('mobile-show');
+//     }else{
+//         console.log("no class");
+//         mainNav.getAttribute('mobile-hide');
+//     }
+// });
+
+// window.onclick()
 
