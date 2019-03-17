@@ -15,14 +15,15 @@
 //});
 
 var btnClick = document.getElementById("burger-icon");
-btnClick.addEventListener("click", function menuIcon(){
+function menuIcon(){
     var mainNav = document.getElementById("myLinks");
     if(mainNav.style.display === "none"){
         mainNav.style.display === "block";
     }else{
         mainNav.style.display === "none";
     }
-});
+}
+
 
 
 
